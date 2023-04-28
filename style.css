@@ -1,0 +1,143 @@
+.content__boxed{
+    width: 80%;
+    height: 100%;
+    padding: 1%;
+    margin: 0 auto;
+    border: 1px grey solid;
+    background: rgb(231, 231, 231);
+}
+.h1 {
+    text-align: center;
+}
+.d-md-flex{
+    display: flex;
+    justify-content: center;
+}
+.w-md-250px{
+    width: 200px;
+    position: relative;
+    background: white;
+    border-radius: 8px;
+    padding: 2%;
+    height: 100%;
+}
+.w-md-250px:hover{
+    border: 2px rgb(156, 227, 105) solid;
+}
+.w-md-250px:hover button{
+    background: rgb(156, 227, 105);
+    border: none
+}
+
+.text-center {
+    text-align: center;
+}
+.text-center h5{
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+}
+.mt-4 span{
+    color: rgb(50, 50, 126)
+}
+.h3{
+    font-size: 20px;
+}
+.display-2{
+    font-size: 80px;
+}
+
+.list-group-item{
+    display: list-item;
+    list-style-type: square;
+    list-style-image: url("2.svg");
+    list-style-position: inside;
+}
+
+.d-grid{
+    display: flex;
+    justify-content: center;
+   
+}
+.btn{
+    background: none;
+    border:1px grey solid;
+    border-radius: 4px;width: 80%;
+    height: 32px;
+}
+.btn a{
+    color: rgb(112, 200, 227);
+}
+
+
+.ribbon {
+    z-index: 10;
+    width: 105px;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+}
+.ribbon:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    display: block;
+    border: 5px solid #c52025;
+}
+    
+.ribbon:after {
+      position: absolute;
+      z-index: -1;
+      content: "";
+      display: block;
+      border: 5px solid #c52025;
+    }
+
+    .ribbon span {
+      position: absolute;
+      display: block;
+      width: 225px;
+      padding:  5px 0;
+      background-color: #c52025;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      color: #fff;
+      font-size: 15px;
+      font-weight: bold;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+      text-transform: uppercase;
+      text-align: center;
+    }
+ 
+  .ribbon-top-right {
+    top: 0px;
+    right: 0px;
+  }
+  .ribbon-top-right::before{
+    border-top-color: transparent;
+      border-right-color: transparent;
+      top: 0px;
+    left: 24px;
+  }
+  .ribbon-top-right::after{
+    border-top-color: transparent;
+      border-right-color: transparent;
+      top: 73px;
+      left: 97px;
+  }
+    
+
+
+  .ribbon  span {
+      left: -37px;
+      top: 18px;
+      transform: rotate(45deg);
+    }
+
+    .justify-content-center{
+        flex-wrap: wrap;
+    }
+
+    .border-success{
+        position: relative;
+    }
+    @media (min-width: 320px) and (max-width: 600px){}
+  
